@@ -1,0 +1,29 @@
+/* format for contact section*/
+.contact{
+    padding: 20px;
+}
+
+/* Format inputs with type = 'text' */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px color #ccc;
+    box-sizing: border-box;
+    resize: vertical; /* allow user to resize textarea vertically */
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+/* Format Submit button */
+input[type="submit"] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    
+}
+
+/* hover color for submit button */
+input[type="submit"]:hover {
+    background-color: orangered;
+}

@@ -1,0 +1,36 @@
+/* format for portfolio section */
+.portfolio {
+    display: inline-block;
+    width: 30%;
+    border: 1px solid orange;
+    margin: 12px;
+    height: 150px;
+    background-image: url(../images/image.jpg);
+    background-size: 100% 100%;
+    box-sizing: border-box;
+
+}
+
+/* project banner hover */
+.portfolio h3:hover{
+    background-color: orangered;
+}
+
+/* project's div background and text */
+.mainContent h3 {
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 700px){
+    .portfolio {
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 20px;
+        background-color: white;
+        clear: bottom;
+    
+}
